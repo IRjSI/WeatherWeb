@@ -61,7 +61,7 @@ export default function Search() {
                 <Mode />
             </div> */}
         </div>
-        <div className="sm:w-[440px] sm:h-[240px] w-[340px] h-[180px] mb-8 px-8 rounded-2xl flex justify-center bg-gradient-to-bl from-[#222222] to-[#121212] text-white shadow-lg flex-col">
+        <div className="sm:w-[440px] sm:h-[240px] w-[340px] h-[220px] mb-8 px-8 rounded-2xl flex justify-center bg-gradient-to-bl from-[#222222] to-[#121212] text-white shadow-lg flex-col">
         <div>
         <form className="flex w-full justify-center gap-3" onSubmit={findWeather}>
             <Input
